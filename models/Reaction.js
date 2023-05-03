@@ -1,5 +1,6 @@
 const { Schema } = require('mongoose');
 
+// Subdocument for reaction 
 const reactionSchema = new Schema({
 	reactionId: {
 		type: Schema.Types.ObjectId,
